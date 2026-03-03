@@ -84,7 +84,7 @@ export function useChat() {
               break;
 
             case 'tool_result':
-              if (currentToolCall) {
+              if (currentToolCall && event.name) {
                 setMessages(prev => {
                   const lastMsg = prev[prev.length - 1];
                   if (lastMsg?.role === 'assistant' && lastMsg.toolCalls) {

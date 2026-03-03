@@ -9,6 +9,16 @@ const toolIcons: Record<string, string> = {
   get_weather: '🌤️',
   calculate: '🔢',
   web_search: '🔍',
+  // Playwright 工具
+  'playwright.browser_navigate': '🌐',
+  'playwright.browser_click': '🖱️',
+  'playwright.browser_type': '⌨️',
+  'playwright.browser_take_screenshot': '📸',
+  'playwright.browser_snapshot': '📄',
+  'playwright.browser_install': '🔧',
+  'playwright.browser_close': '❌',
+  'playwright.browser_evaluate': '⚡',
+  'playwright.browser_wait_for': '⏱️',
 };
 
 export function ToolCallCard({ toolCall }: ToolCallCardProps) {
