@@ -1,6 +1,11 @@
 {
   "version": 1,
   "skills": {
+    "openclaw-complete-deployment-guide": {
+      "source": "NathanSteelQoder/openclaw-config-qoder-integration",
+      "sourceType": "github",
+      "computedHash": "4cb2a975bbe717e8f2aa1de10e3a1b13bccf8a8ba6134a9f2408c4a3cc2c7083"
+    },
     "web-artifacts-builder": {
       "source": "anthropics/skills",
       "sourceType": "github",
